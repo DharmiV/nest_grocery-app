@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#toprow{
+    font-size: small;
+    margin: auto;
+}
+
+#bottomrow{
+    /* padding-inline: 7%; */
+    font-size: small;
+}
+
+#middlerow{
+    /* padding-inline: 7%; */
+    overflow-x: hidden;
+    margin: 0;
+    font-size: small;
+}
+
+#language, #currency{
+    box-shadow: none;
+    font-size: small;
+    
+}
+
+.container-fluid .logo{
+    width: 150px;
+    height: auto;
+    
+}
+
+.container-fluid a.a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid a.a::after{
+    content: "|";
+    padding-inline: 2%;
+}
+.container-fluid a.b::after{
+    content: "|";
+    padding-inline: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.logo
+{
+    width: 8%;
+    height: 60px;
+} 
+
+.container-fluid select{
+    border: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.navbar .d-flex{
+    width: 600px;
+    border-radius: 0;
+}
+
+.navbar .input-group-text{
+    background-color: white;
+    width: 24%;
+    border-radius: 0;
+}
+
+#home .dropdown-toggle{
+    color: #20c997;
+}
+
+#bottomrow a{
+    text-decoration: none;
+    color: black;
+}
+/* #search{
+    width: 40px;
+    border-left: 0;
+    border-right: 0;
+}
+ */
+#coverimg{
+    height: 500px;
+    width: 100%;
+    padding-inline: 7%;
+}
+
+/* #home #shop #vendors #megamenu #blog #pages{
+    font-size: ;
+} */
+
+#home .dropdown-toggle{
+    font-size: small;
+}
+#shop .dropdown-toggle{
+    font-size: small;
+}
+#vendors .dropdown-toggle{
+    font-size: small;
+}
+#megamenu .dropdown-toggle{
+    font-size: small;
+}
+#blog .dropdown-toggle{
+    font-size: small;
+}
+#pages .dropdown-toggle{
+    font-size: small;
+}
+#categories .dropdown-toggle{
+    font-size: small;
+}
+#fcategory{
+    margin-top: 3%;
+    padding-left: 1%;
+}
+#categoryrow a{
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+}
+#categoryitems{
+    font-size: small;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#categoryitems img{
+    height: 80px;
+    padding: 10%;
+    margin-top: 10%;
+}
+#apple, #custardapple{
+    background-color: rgb(255, 220, 226);
+}
+#snack, #coffeetea{
+    background-color: rgb(222, 220, 255);
+}
+#vegetables, #headphone{
+    background-color: rgb(220, 255, 255);
+}
+#strawberry, #cakemilk{
+    background-color: rgb(231, 255, 220);
+}
+#blackplum, #organickiwi{
+    background-color: rgb(255, 237, 220);
+}
